@@ -90,7 +90,7 @@
       for (let i = 0; i < userName.length; i++) {
         sumOfcharCode = sumOfcharCode + userName.charCodeAt(i);
       }
-  
+ 
       // 文字のコード番号の合計を回答の数で割って添字の数値を求める
       const index = sumOfcharCode % answers.length;
       let result = answers[index];
